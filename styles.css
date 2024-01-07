@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    border: 0;
+}
+
+body {
+    background-color:#ecf2f8;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+#all{
+padding: 5% 3%;
+color:white;
+
+
+}
+
+.grids h4{
+    margin-bottom:10px;
+    font-size: 1.2rem;
+    font-weight:600px;
+}
+
+.grids p {
+    opacity: 70%;
+}
+
+
+.header-txt .names
+{
+    font-size: 1rem;
+}
+.namesj
+{
+    color:yellow;
+}
+#testimonial-1
+{
+    /* width:330px;
+    height:450px; */
+    /* border: 2px solid black; */
+    
+    background-color:#7541c8;
+    border-radius:5px;
+    position:relative;
+    z-index:0;
+    
+}
+#testimonial-2{
+    /* width: 330px;
+    height:242px; */
+    /* border: 2px solid black; */
+    background-color:#48556a;
+
+    border-radius:5px;
+    color:white;
+}
+#testimonial-3, #testimonial-5{
+    /* width:330px;
+    height:218px; */
+    /* border: 2px solid black; */
+  
+    background-color:#ffffff;
+    border-radius: 5px;
+    color:#48556a;
+    
+}
+#testimonial-4{
+    /* width:330px;
+    height:384px; */
+    border: 2px solid black;;
+   
+    background-color:#19212e;
+    border-radius: 5px;
+}
+
+.grids{
+    padding:20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    font-size:13px;
+}
+
+.header
+{
+    display:flex;
+    align-items: center;
+    z-index:3;
+    position:relative;
+}
+
+.header p {
+    margin:auto;
+}
+.header img{
+    border-radius: 50%;
+    margin-right:5%;
+    border:1px solid purple;
+}
+
+
+#quote
+{
+   position:absolute;
+   right:15%;
+   top:0;
+   z-index:1;
+
+
+}
+@media (min-width: 576px)
+{
+    #all{
+        display:flex;
+        max-width: 1000px;
+        margin:0 auto; 
+        justify-content: space-between; 
+
+    }
+    #testimonial-5
+    {
+        flex-basis:30%
+    }
+    #top{
+        display:flex;
+        flex-basis:50%;
+    }
+    #bottom{
+        display:flex;
+        flex-basis:50%;
+        
+    }
+    #main-left{
+        display:flex;
+        flex-direction: column;
+        flex-basis:68%;
+    }
+
+    #main-left .grids{
+             margin-right: 10px; 
+    }
+
+
+    #testimonial-1
+{
+    flex-basis: 65%;
+    
+
+}
+#testimonial-2{
+    flex-basis: 35%;
+}
+#testimonial-3{
+    
+    flex-basis: 35%;
+}
+#testimonial-4
+{
+    flex-basis: 65%;
+}
+
+
+
+}
